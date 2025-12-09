@@ -10,7 +10,14 @@ $categories = [
 
 foreach ($categories AS $category) {
     if ($category === 'Chess') {
-        echo 'I want to sacrifice the ROOOOOOOK!!!';
+        echo 'I want to sacrifice the ROOOOOOOK!!! <br />';
+    }
+    else if ($category === 'Art') {
+        echo 'Let him cook <br />';
+    }
+    else if ($category === 'Gaming') 
+    {
+        echo 'My brother stole my pc, because he wanted to play Fortnite <br />';
     }
 }
 ?>
