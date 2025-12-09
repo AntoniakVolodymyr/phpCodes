@@ -9,7 +9,6 @@ $categories = [
 ];
 
 foreach ($categories AS $category) {
-    var_dump($category);
     if ($category === 'Chess') {
         echo 'I want to sacrifice the ROOOOOOOK!!!';
     }
