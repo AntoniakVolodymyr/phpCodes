@@ -1,0 +1,33 @@
+<?php
+$categories = [
+    'Programming',
+    'Gaming', 
+    'Art', 
+    'Self improvement', 
+    'History',
+    'Chess'
+];
+
+foreach ($categories AS $category) {
+    var_dump($category);
+    if ($category === 'Chess') {
+        echo 'I want to sacrifice the ROOOOOOOK!!!';
+    }
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./simple.css" />
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <?php foreach ($categories AS $category): ?>
+            <li><?php echo $category; ?></li>
+        <?php endforeach; ?>
+    </ul>
+</body>
+</html>
